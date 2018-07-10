@@ -1,8 +1,8 @@
 # write your method here
 
-def crazy_strings(1st_string, 2nd_string)
-  1st_string = 1st_string.reverse.upcase
-  2nd_string = 2nd_string.swapcase.gsub("s","z")
-  return "#{1st_string} #{2nd_string}"
+def crazy_strings(first_string, second_string)
+  first_string = first_string.reverse.upcase
+  second_string = second_string.swapcase.gsub("s","z")
+  return "#{first_string} #{second_string}"
 end
 puts crazy_strings("Hello","Friends")
